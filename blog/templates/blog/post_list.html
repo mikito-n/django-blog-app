@@ -51,7 +51,9 @@
             
             {% endfor %}
  
+            {% if object_list %}
             {% include "blog/snippets/pagination.html" %}
+            {% endif %}
         </div>
     </div>
 
